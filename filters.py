@@ -1,5 +1,7 @@
 """Apply the user's filtering criteria to scraped listings."""
 
+from __future__ import annotations
+
 from config import CRITERIA
 from models import Listing
 
